@@ -70,6 +70,6 @@ ggplot(chks9)+
   theme(plot.title  = element_markdown(),
         plot.title.position = "plot"
   )
-
+ 
 
 ggsave("Gender.png", width = 8, height = 5)
